@@ -191,7 +191,7 @@ def play_superhero_top_trumps_round():
     calculate_pokemon_scores(my_stat, opponent_stat)
 
 
-game_request = input("So, what's it to be today? Pokemon or Superheroes?: ")
+game_request = input("So, what will it to be today? Pokemon or Superheroes?: ")
 comment = int(input("\nHow many rounds would you like to play?: "))
 print("\nGreat! You have selected {} rounds(s)\n".format(comment))
 
